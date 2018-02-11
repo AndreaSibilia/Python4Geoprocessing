@@ -1,5 +1,5 @@
 #### RIVER 3D PROFILES TOOL ####
-## Build with PyCharm v2017.3.3 ##
+## Build through PyCharm v2017.3.3 ##
 
 # Import the ArcPy site package
 import arcpy
@@ -19,7 +19,7 @@ try:
         raise LicenseError
 
 
-    '''Process finishes'''
+    '''Process starts'''
 
     # Ask the user if he prefers to set up a common workspace to avoid to insert the whole path for each file.
     while True:
